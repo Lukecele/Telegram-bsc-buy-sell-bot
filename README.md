@@ -23,6 +23,10 @@ Track token transfers involving DEX pools on BNB Smart Chain or Ethereum, estima
 
 ## Telegram alerts
 
+<img src="docs/assets/telegram-alerts.png" alt="Telegram chat showing Arb Inc Moon buy and sell alerts for Arbitrage Inception, with token amounts, USD values, prices, and transaction links" width="288" height="683" />
+
+*Telegram bot alerts captured in the chat. Screenshot provided by the project owner; amounts and prices reflect the captured messages.*
+
 [Open the bot](https://t.me/ArbincMoon_bot) or [visit the community alert topic](https://t.me/arbitrageinception/80770) to view notifications in Telegram. The [example below](#example-alert) illustrates the alert format.
 
 ### Administration dashboard

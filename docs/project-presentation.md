@@ -24,7 +24,7 @@ Read-only HTTP checks on October 1, 2026:
 | [@ArbincMoon_bot](https://t.me/ArbincMoon_bot) | HTTP 200; Telegram landing identifies Arb Inc Moon and the bot handle. | Proposed public homepage. Live responses/delivery untested. |
 | [Community alert topic](https://t.me/arbitrageinception/80770) | HTTP 200; Telegram post landing. | Optional community link; post contents/access not verified. |
 
-No production controls were invoked, no credentials were used, and no Telegram messages were sent. Root availability and bundle inspection do not establish backend health, access control, or continuous monitoring. There is no reproducible deployment configuration in this checkout. The local empty-dashboard screenshot was removed after owner feedback; the showcase should use real Telegram bot alerts.
+No production controls were invoked, no credentials were used, and no Telegram messages were sent. Root availability and bundle inspection do not establish backend health, access control, or continuous monitoring. There is no reproducible deployment configuration in this checkout. The showcase uses a Telegram chat screenshot supplied by the owner. It is separate from the read-only endpoint checks and does not establish current delivery health.
 
 ## Repository settings
 
@@ -49,9 +49,9 @@ The replacement list respects [GitHub's topic rules](https://docs.github.com/en/
 
 ## Assets and provenance
 
-- [Social card SVG](assets/social-card.svg): editable original artwork, using the dashboard's zinc and blue palette and a simple activity trace; no external images, logos, or fonts are bundled.
+- [Social card SVG](assets/social-card.svg): editable layout using the dashboard's zinc and blue palette, with the owner-supplied Telegram screenshot embedded. Its right panel crops the first buy and sell messages without changing their contents. No external fonts or new logos are bundled.
 - [Social card PNG](assets/social-card.png): opaque 1280×640 export, under 1 MB; intended for GitHub Social preview and sharing.
-- Telegram alert screenshots: awaiting owner-supplied images or an accessible alert permalink. The topic creation message is publicly embeddable, but it is not a bot alert; no substitute screenshot is presented.
+- [Telegram alert screenshot](assets/telegram-alerts.png): original 288×683 PNG supplied by the project owner, showing buy and sell alerts in the Telegram chat. Copied unchanged; no messages or values were reconstructed. No capture date was supplied, and the pictured messages were not independently matched to live transactions.
 
 To reproduce the card, open the SVG at its native 1280×640 size in a browser and export/capture a PNG without browser chrome. The card has an opaque background and work within light and dark Markdown themes.
 
