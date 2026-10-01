@@ -24,7 +24,7 @@ Read-only HTTP checks on October 1, 2026:
 | [@ArbincMoon_bot](https://t.me/ArbincMoon_bot) | HTTP 200; Telegram landing identifies Arb Inc Moon and the bot handle. | Proposed public homepage. Live responses/delivery untested. |
 | [Community alert topic](https://t.me/arbitrageinception/80770) | HTTP 200; Telegram post landing. | Optional community link; post contents/access not verified. |
 
-No production controls were invoked, no credentials were used, and no Telegram messages were sent. Root availability and bundle inspection do not establish backend health, access control, or continuous monitoring. There is no reproducible deployment configuration in this checkout. The screenshot is from a local instance, not either hosted service.
+No production controls were invoked, no credentials were used, and no Telegram messages were sent. Root availability and bundle inspection do not establish backend health, access control, or continuous monitoring. There is no reproducible deployment configuration in this checkout. The local empty-dashboard screenshot was removed after owner feedback; the showcase should use real Telegram bot alerts.
 
 ## Repository settings
 
@@ -51,9 +51,9 @@ The replacement list respects [GitHub's topic rules](https://docs.github.com/en/
 
 - [Social card SVG](assets/social-card.svg): editable original artwork, using the dashboard's zinc and blue palette and a simple activity trace; no external images, logos, or fonts are bundled.
 - [Social card PNG](assets/social-card.png): opaque 1280×640 export, under 1 MB; intended for GitHub Social preview and sharing.
-- [Dashboard screenshot](assets/dashboard-local.png): actual locally running React UI, in English, with an empty Telegram token, monitoring stopped, zero chats, and no trades. No fixtures representing live activity were inserted.
+- Telegram alert screenshots: awaiting owner-supplied images or an accessible alert permalink. The topic creation message is publicly embeddable, but it is not a bot alert; no substitute screenshot is presented.
 
-To reproduce the screenshot, follow the README quick start with the empty token, select English in the local UI, and capture at 1440×1080. To reproduce the card, open the SVG at its native 1280×640 size in a browser and export/capture a PNG without browser chrome. Both assets have opaque backgrounds and work within light and dark Markdown themes.
+To reproduce the card, open the SVG at its native 1280×640 size in a browser and export/capture a PNG without browser chrome. The card has an opaque background and work within light and dark Markdown themes.
 
 ## Technical introduction
 
