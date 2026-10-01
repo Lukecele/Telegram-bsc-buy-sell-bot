@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">DEX Swap Tracker &amp; Telegram Bot — by Lukecele</title>
+  <desc id="desc">DEX swap monitoring &amp; Telegram alerts. BNB Smart Chain and Ethereum. Open source under the MIT license.</desc>
+  <rect width="1280" height="640" fill="#09090b"/>
+  <rect x="32" y="32" width="1216" height="576" rx="28" fill="#18181b" stroke="#3f3f46"/>
+  <path d="M76 102h24l12-24 20 48 16-24h28" fill="none" stroke="#60a5fa" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="198" y="112" fill="#d4d4d8" font-size="28">BNB SMART CHAIN / ETHEREUM</text>
+    <text x="76" y="232" fill="#fafafa" font-size="72" font-weight="700">DEX Swap Tracker</text>
+    <text x="76" y="310" fill="#fafafa" font-size="64" font-weight="700">&amp; Telegram Bot</text>
+    <text x="76" y="395" fill="#93c5fd" font-size="38">DEX swap monitoring &amp; Telegram alerts</text>
+    <path d="M76 448h1128" stroke="#3f3f46"/>
+    <text x="76" y="522" fill="#fafafa" font-size="38" font-weight="700">by Lukecele</text>
+    <text x="76" y="563" fill="#a1a1aa" font-size="24">Luca Celebrano</text>
+    <text x="1204" y="525" text-anchor="end" fill="#d4d4d8" font-size="28">Open source · MIT</text>
+    <text x="1204" y="563" text-anchor="end" fill="#a1a1aa" font-size="24">github.com/Lukecele</text>
+  </g>
+</svg>

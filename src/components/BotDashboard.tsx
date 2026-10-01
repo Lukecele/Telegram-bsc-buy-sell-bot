@@ -97,7 +97,7 @@ export default function BotDashboard() {
   const isEn = config?.language === "en";
 
   const t = {
-    title: "DEX Telegram Bot",
+    title: "DEX Swap Tracker & Telegram Bot",
     subtitle: isEn ? "Liquidity pool swap tracker and notifier." : "Aggregatore di swap su tutte le pool di liquidità.",
     missingKeys: isEn ? "Missing API Keys" : "Chiavi API Mancanti",
     stopBot: isEn ? "Stop Bot" : "Ferma Bot",
@@ -358,11 +358,11 @@ export default function BotDashboard() {
         <div className="mt-8 pt-6 border-t border-zinc-800 text-center text-xs text-zinc-500 max-w-2xl mx-auto">
           <p className="leading-relaxed">
             {isEn
-              ? "Open-source on-chain swap telemetry and event notification dashboard (MIT License). Connects to public RPCs and Birdeye APIs for read-only market monitoring. Does not execute trades, manage funds, or provide financial advice."
-              : "Strumento open-source di telemetria e notifiche on-chain (Licenza MIT). Connesso a nodi RPC pubblici e API Birdeye per monitoraggio di mercato in sola lettura. Non esegue trade, non gestisce fondi e non fornisce consulenza finanziaria."}
+              ? "Open-source on-chain swap telemetry and event notification dashboard (MIT License). Connects to public EVM RPCs and DexScreener for read-only market monitoring. Does not execute trades, manage funds, or provide financial advice."
+              : "Strumento open-source di telemetria e notifiche on-chain (Licenza MIT). Connesso a nodi RPC EVM pubblici e DexScreener per monitoraggio di mercato in sola lettura. Non esegue trade, non gestisce fondi e non fornisce consulenza finanziaria."}
           </p>
           <div className="mt-2 flex justify-center gap-3 text-zinc-400">
-            <a href="https://github.com/Lukecele/birdeye-dex-tracker" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition">GitHub (MIT)</a>
+            <a href="https://github.com/Lukecele/Telegram-bsc-buy-sell-bot" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition">GitHub (MIT)</a>
             <span>•</span>
             <a href="https://arbitrage-inc.exchange/terms-of-service" target="_blank" rel="noreferrer" className="hover:text-emerald-400 transition">Terms</a>
           </div>

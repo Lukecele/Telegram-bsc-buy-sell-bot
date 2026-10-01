@@ -1,11 +1,11 @@
 {
-  "name": "birdeye-dex-tracker",
+  "name": "telegram-bsc-buy-sell-bot",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Lukecele",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lukecele/birdeye-dex-tracker.git"
+    "url": "https://github.com/Lukecele/Telegram-bsc-buy-sell-bot.git"
   },
   "type": "module",
   "scripts": {
