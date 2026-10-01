@@ -7,7 +7,7 @@ Track token transfers involving DEX pools on BNB Smart Chain or Ethereum, estima
 [![CI](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Dashboard preview](#dashboard-preview) · [Run locally](#quick-start) · [Source / Star](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot) · [Follow Lukecele](https://github.com/Lukecele)
+[Open the Telegram bot](https://t.me/ArbincMoon_bot) · [Telegram alerts](#telegram-alerts) · [Run locally](#quick-start) · [Source / Star](https://github.com/Lukecele/Telegram-bsc-buy-sell-bot) · [Follow Lukecele](https://github.com/Lukecele)
 
 ![DEX Swap Tracker & Telegram Bot — DEX swap monitoring & Telegram alerts, by Lukecele](docs/assets/social-card.png)
 
@@ -21,11 +21,15 @@ Track token transfers involving DEX pools on BNB Smart Chain or Ethereum, estima
 
 **Current scope:** the RPC implementation supports `bsc` and `ethereum`. Solana appears in some formatting helpers but has no Solana monitoring implementation. The runtime uses DexScreener and public RPCs; no Birdeye or Gemini API key is needed. Values use the latest fetched price, not the historical execution price. Detected events in the dashboard are not proof of successful Telegram delivery.
 
-## Dashboard preview
+## Telegram alerts
 
-![Local administration dashboard with English labels, monitoring stopped, no Telegram token, and no trades](docs/assets/dashboard-local.png)
+<img src="docs/assets/telegram-alerts.png" alt="Telegram chat showing Arb Inc Moon buy and sell alerts for Arbitrage Inception, with token amounts, USD values, prices, and transaction links" width="288" height="683" />
 
-*Actual local application screenshot, captured without credentials or live messages. The empty feed is intentional; no sample trades were injected.*
+*Telegram bot alerts captured in the chat. Screenshot provided by the project owner; amounts and prices reflect the captured messages.*
+
+[Open the bot](https://t.me/ArbincMoon_bot) or [visit the community alert topic](https://t.me/arbitrageinception/80770) to view notifications in Telegram. The [example below](#example-alert) illustrates the alert format.
+
+### Administration dashboard
 
 The dashboard is an **administration panel**, with controls that change server state. This checkout has no authentication layer for those controls. Keep it on a trusted network or behind access control when self-hosting.
 
